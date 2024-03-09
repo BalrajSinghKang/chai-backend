@@ -1,6 +1,9 @@
-// require('dotenv').config({path: './env'})
+// require('dotenv').config({path: './env'}) not use this approach beacuse here we used required but in below lines import is used that's why it is decleared in 2, 5 line
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
+// import express from "express";
+
+// const app = express()
 
 dotenv.config({
     path: './env'
